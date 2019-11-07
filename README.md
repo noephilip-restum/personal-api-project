@@ -1,24 +1,41 @@
-# Project Summary
+# Pokemon Trading Card Game: Viewer
 
-Utilize a public API to and create an interesting user interface to display or
-manipulate the available data.
+Pokemon Trading Card Game is an app that displays cards from the Pokemon Series and it also displays its information.
 
-## API Resources
+# Getting Started
 
-Check out the link below for a list of interesting publicly available API's
+1. Download the zip file at Github
+2. Extract and save the local file copy.
+3. Meet the requirement before getting started.
+4. Open `index.html`
 
-[API List](https://github.com/public-apis/public-apis)
+## Project Functionalities
 
-## Project Requirements
+- User-Friendly Interface
+- Viewing of Cards
+- Viewing of Card Details
+- Organize cards by its Sub-types
+- Sort cards by Sets
+- Searching a specific card
 
-- You'll have 3 full days to research and implement your application
-  - Your project should interact with at least one API.
-  - Your project should present a clean, easy to use, user interface and
-    experience
-  - Do your best to write well formatted and clean HTML, CSS, and JavaScript
-  - Have fun building something of your own!
+## Prerequisites
 
-## Finished
+- Web Browser
+- Internet Connection
 
-Because you may have sensitive API keys in your project, please attach your
-submission to the assignment in Google Classroom
+## Built w/
+
+- [Vanilla JS](<[[http://vanilla-js.com/](http://vanilla-js.com/)]([http://vanilla-js.com/](http://vanilla-js.com/))>)
+- [Pokemon TCG Developer](https://pokemontcg.io/)
+- [Visual Studio Code](<([https://code.visualstudio.com/](https://code.visualstudio.com/))>)
+
+## Author/s
+
+Noe Philip Gabriel M. Restum
+
+## Acknowledgements
+
+- [Vanilla JS](<[[http://vanilla-js.com/](http://vanilla-js.com/)]([http://vanilla-js.com/](http://vanilla-js.com/))>)
+- [Andrew Backes](http://andrewbackes.com/)
+- [Pokemon TCG Developer](https://pokemontcg.io/)
+- [Visual Studio Code](<([https://code.visualstudio.com/](https://code.visualstudio.com/))>)

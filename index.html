@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pokemon TCG</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <ul>
+          <img class="tcg-logo" src="../images/tcg-logo.png" alt="" />
+          <li><a class="a-default home" href="#">Home</a></li>
+          <li><a class="a-default subsets">Sets</a></li>
+          <li><a class="a-default sets">Subsets</a></li>
+          <li><a class="a-default" href="https://pokemontcg.io/">About</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header-content banner">
+      <video autoplay loop muted class="banner__video">
+        <source src="../images/team.mp4" type="video/webm" />
+      </video>
+      <div class="searchBox">
+        <input class="searchInput" type="text" name="" placeholder="Search" />
+        <button class="searchButton" href="#">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </div>
+    <!--CARDS-->
+    <div class="main-cards">
+      <div class="cards"></div>
+    </div>
+    <!--SUBSETS-->
+    <div class="main-subsets">
+      <div class="subsets-sub"></div>
+    </div>
+    <!--SETS-->
+    <div class="main-sets">
+      <div class="sets-sub"></div>
+    </div>
+    <div class="footer">
+      <p class="footer-right">© Noe Philip Gabriel Restum</p>
+    </div>
+    <script src="scripts/default.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/getData.js"></script>
+    <script src="scripts/pokemon.js"></script>
+  </body>
+</html>

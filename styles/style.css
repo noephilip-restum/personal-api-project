@@ -1,0 +1,391 @@
+body {
+  margin: 0 auto;
+  background-image: url("../images/background.jpg");
+  font-family: "Staatliches", cursive;
+}
+
+.header {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  background: black;
+  opacity: 0.8;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.tcg-logo {
+  float: left;
+  height: 60px;
+  margin-top: -24px;
+  margin-left: 20px;
+  margin-right: 1100px;
+}
+
+li {
+  display: inline;
+  padding-right: 50px;
+}
+
+.a-default {
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+a:hover {
+  font-weight: bold;
+  color: whitesmoke !important;
+  padding-bottom: 10px;
+  border-bottom: 5px solid yellow;
+}
+
+.header-content {
+  height: 650px;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner__video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+}
+
+.searchBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: -60px;
+}
+
+.searchBox:hover > .searchInput {
+  width: 500px;
+  padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+  background: white;
+  color: #2f3640;
+}
+
+.searchButton {
+  color: white;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.searchInput {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  text-transform: capitalize;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  text-align: center;
+}
+
+.main-cards {
+  background: black;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+
+.main-subsets {
+  background: #00000066;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+}
+
+.main-sets {
+  background: #00000066;
+  height: 1000px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.subsets-sub {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sets-sub {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.subsets-list {
+  margin-bottom: 20px;
+  height: 300px;
+  width: 32%;
+  border: lightslategray;
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  transition: transform 0.2s;
+}
+
+.gray {
+  color: lightslategray;
+}
+
+.attack-text {
+  padding-top: -100px;
+}
+.sets-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  height: 150px;
+  width: 32%;
+  border: lightslategray;
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 20px;
+  transition: transform 0.2s;
+}
+
+.subsets-list:hover {
+  border: solid 3px black;
+  transform: scale(1.2);
+}
+
+.sets-list:hover {
+  border: solid 3px black;
+  transform: scale(1.2);
+}
+
+.set-title {
+  padding-top: 15px;
+  font-size: 36px;
+}
+
+.subsets-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.subsets-detais {
+  display: flex;
+  justify-content: center;
+}
+
+.subsets-symbol {
+  margin-left: 50px;
+}
+
+.subsets-text {
+  margin-top: -95px;
+  margin-left: 115px;
+}
+
+.subtext {
+  margin-top: -30px;
+  font-size: 22px;
+  color: lightslategray;
+}
+
+.logo-style {
+  padding-top: 5%;
+  height: 150px;
+  width: 70%;
+}
+
+.symbol-style {
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-list {
+  margin-bottom: 20px;
+  width: 24%;
+  background: transparent;
+  border-radius: 15px;
+}
+
+.poke-card {
+  opacity: 1;
+  height: 495px;
+  background-size: cover;
+  transition: transform 0.2s;
+}
+
+.poke-card:hover {
+  transform: scale(1.2);
+}
+
+.footer {
+  height: 60px;
+  width: 100%;
+  background: black;
+  opacity: 0.8;
+}
+
+.footer-right {
+  float: right;
+  color: lightslategray;
+  font-size: 16px;
+  padding-right: 10%;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  border: 1px solid #888;
+  width: 80%;
+  border: none;
+}
+
+.modal-header {
+  background-color: black;
+  opacity: 0.9;
+  height: 105px;
+  width: 100%;
+}
+
+.modal-title {
+  float: left;
+  font-size: 32px;
+  color: white;
+  margin-left: 20px;
+}
+
+.main-modal {
+  display: flex;
+  padding: 60px 200px 60px 200px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #abbaab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.stats-details {
+  text-align: center;
+}
+.poke-title {
+  font-size: 32px;
+  color: black;
+}
+.poke-avatar {
+  width: 40%;
+}
+
+.poke-details {
+  width: 60%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 32px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-trigger {
+  background: transparent;
+  border: none;
+}
